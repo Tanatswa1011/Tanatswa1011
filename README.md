@@ -1,104 +1,120 @@
 <div align="center">
 
-# Tanatswa Phil Muganga
+# 👋 Tanatswa Phil Muganga
 
-### Product-minded builder working across AI, automation, data and software.
+### 🚀 Product-minded builder | AI × Automation × Data × Software
 
-I turn messy workflows into products, prototypes and systems that people can actually use.
+<p>
+  <em>Turning messy workflows into products, prototypes and systems that people can actually use.</em>
+</p>
 
-[Portfolio](https://TanaPhil.com) · [LinkedIn](https://www.linkedin.com/in/tanatswaphilmuganga16) · [Email](mailto:tanamuganga16@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-TanaPhil.com-blue?style=flat-square&logo=world&logoColor=white)](https://TanaPhil.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanatswaphilmuganga16-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanatswaphilmuganga16)
+[![Email](https://img.shields.io/badge/Email-tanamuganga16@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tanamuganga16@gmail.com)
 
 </div>
 
 ---
 
-## What I do
+## 💡 What I do
 
-I’m a Computer Science graduate based in Germany, with experience across **data analytics, product development, automation and AI-assisted engineering**.
+Computer Science graduate based in **Germany**, with hands-on experience across:
+- 📊 Data analytics & pipeline automation
+- 🛠️ Product development & rapid prototyping  
+- ⚙️ Workflow automation & systems design
+- 🤖 AI-assisted engineering
 
-My strongest work sits at the intersection of product and engineering: identifying a real operational problem, reducing it to the right workflow, shipping a usable version quickly, and iterating from evidence rather than assumptions.
+**My sweet spot:** Where product meets engineering. I find real operational problems, design the right workflows, ship working versions fast, and iterate based on what actually moves the needle.
 
-I’m particularly interested in **AI products, product engineering, product management, workflow automation, applied data and founder-led teams**.
-
----
-
-## Selected work
-
-### [ContractGuard AI](https://github.com/Tanatswa1011/ContractGuard-AI)
-AI-assisted contract operations tooling focused on turning contract obligations, deadlines and risks into actionable workflows.
-
-**Live:** [app.contractguard.cloud](https://app.contractguard.cloud/)
-
-`AI` `Product` `Automation` `Contracts`
-
-### [ACPT](https://www.acpt.cloud/)
-A product concept for detecting business-level outcome failures in AI and automated workflows, with an emphasis on evidence, investigation and operational reliability.
-
-**Live:** [acpt.cloud](https://www.acpt.cloud/)
-
-`AI Operations` `Reliability` `Product Design` `B2B SaaS`
-
-### Nimo
-A mobile-first event contact product designed around one simple problem: you meet useful people at events, then forget who they were and why they mattered.
-
-Built around event rooms, QR exchange, lightweight contact context and follow-up reminders.
-
-`React Native` `Expo` `Supabase` `Product` `Mobile`
-
-### [ORB Market Research Pipeline](https://github.com/Tanatswa1011/orb-validity-qqq)
-A reproducible research pipeline for testing Opening Range Breakout hypotheses using market data rather than trading anecdotes.
-
-`Python` `Data Analysis` `Research` `Backtesting`
-
-### [AI Trader Terminal](https://github.com/Tanatswa1011/AiTraderTerminal)
-An interface experiment around AI-assisted trading workflows, execution context and operator visibility.
-
-`Trading Systems` `Automation` `Product Engineering`
+**Most interested in:** AI products · Product engineering · Product management · Workflow automation · Applied data · Founder-led teams
 
 ---
 
-## Experience in one line
+## 🌟 Selected work
 
-Previously worked in data analytics, where I used **Python and SQL to automate a document-heavy workflow processing roughly 1,000 PDFs per week**, cutting a process that took about 15 hours down to roughly 2–3 hours.
+### 🔐 [ContractGuard AI](https://github.com/Tanatswa1011/ContractGuard-AI)
+AI-assisted contract operations tooling that transforms contract obligations, deadlines and risks into actionable workflows.
 
-That experience shaped how I build today: **find the bottleneck, understand the workflow, remove unnecessary work, measure what changed.**
-
----
-
-## Tools I work with
-
-**Product & AI**  
-LLM workflows · AI-assisted development · Prompt design · Product discovery · Rapid prototyping · Automation
-
-**Engineering**  
-Python · JavaScript / TypeScript · React · React Native · Expo · Next.js · SQL · APIs · Git
-
-**Data**  
-Pandas · PostgreSQL · Power BI · Excel · Data pipelines · Experimentation
-
-**Infrastructure & Platforms**  
-Supabase · Vercel · AWS · Linux · GitHub
+**Live:** [app.contractguard.cloud](https://app.contractguard.cloud/)  
+**Stack:** `AI` `Product` `Automation` `Contracts` `LLMs`
 
 ---
 
-## How I like to work
+### 📈 [ACPT](https://www.acpt.cloud/) — AI Outcome Detection
+Detecting business-level failures in AI and automated workflows with evidence-based investigation and operational reliability.
 
-- Start with the user or operational problem, not the feature list.
-- Ship small enough to learn quickly.
-- Use AI aggressively where it increases speed, but keep judgment and verification human.
-- Prefer measurable workflow improvements over impressive-sounding demos.
-- Treat product, data and engineering as one system rather than separate departments.
+**Live:** [acpt.cloud](https://www.acpt.cloud/)  
+**Stack:** `AI Operations` `Reliability` `Product Design` `B2B SaaS`
 
 ---
 
-## More
+### 📱 **Nimo** — Event Networking
+Mobile-first product solving a simple problem: you meet useful people at events, then forget who they were and why.
 
-For a clearer view of what I’m building, case studies and current work:
+Features: Event rooms · QR exchange · Lightweight contact context · Follow-up reminders  
+**Stack:** `React Native` `Expo` `Supabase` `Mobile-First`
 
-### → [TanaPhil.com](https://TanaPhil.com)
+---
+
+### 📊 [ORB Market Research Pipeline](https://github.com/Tanatswa1011/orb-validity-qqq)
+Reproducible research framework testing Opening Range Breakout hypotheses using real market data.
+
+**Stack:** `Python` `Data Analysis` `Backtesting` `Research`
+
+---
+
+### 🤖 [AI Trader Terminal](https://github.com/Tanatswa1011/AiTraderTerminal)
+Interface experiment for AI-assisted trading workflows, execution context and operator visibility.
+
+**Stack:** `Trading Systems` `Automation` `Product Engineering` `UX`
+
+---
+
+## 📌 Experience in one line
+
+Previously worked in **data analytics** where I used Python & SQL to automate document-heavy workflows (**~1,000 PDFs/week**), cutting a 15-hour process down to ~2 hours.
+
+**That shaped how I build today:** Find the bottleneck → Understand the workflow → Remove unnecessary work → Measure what changed.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Product & AI** | LLM workflows · Prompt design · AI-assisted development · Product discovery · Rapid prototyping · Automation |
+| **Engineering** | Python · JavaScript / TypeScript · React · React Native · Expo · Next.js · SQL · APIs · Git |
+| **Data** | Pandas · PostgreSQL · Power BI · Excel · Data pipelines · Experimentation |
+| **Infrastructure** | Supabase · Vercel · AWS · Linux · GitHub |
+
+---
+
+## 🎯 How I work
+
+✅ Start with the **user problem**, not the feature list  
+✅ **Ship small** to learn quickly  
+✅ Use AI **aggressively for speed**, but keep judgment human  
+✅ Prioritize **measurable improvements** over impressive demos  
+✅ Treat product, data, and engineering as **one system**
+
+---
+
+## 📍 Where to find more
+
+For case studies, deeper dives and current work:
 
 <div align="center">
 
-**Berlin / Potsdam, Germany** · Open to product, AI product engineering, product operations and founder-led opportunities.
+### 🌐 [**TanaPhil.com**](https://TanaPhil.com)
+
+</div>
+
+---
+
+<div align="center">
+
+**📍 Berlin / Potsdam, Germany**
+
+Open to: Product roles · AI product engineering · Product operations · Founder-led opportunities
 
 </div>
