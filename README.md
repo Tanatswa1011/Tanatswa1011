@@ -1,120 +1,129 @@
 <div align="center">
 
-# 👋 Tanatswa Phil Muganga
+# Tanatswa Phil Muganga
 
-### 🚀 Product-minded builder | AI × Automation × Data × Software
+**Systems & Product Engineer** | Berlin, Germany
 
-<p>
-  <em>Turning messy workflows into products, prototypes and systems that people can actually use.</em>
-</p>
+Building reliable systems for high-complexity operational problems.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-TanaPhil.com-blue?style=flat-square&logo=world&logoColor=white)](https://TanaPhil.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanatswaphilmuganga16-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tanatswaphilmuganga16)
-[![Email](https://img.shields.io/badge/Email-tanamuganga16@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:tanamuganga16@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-TanaPhil.com-555?style=flat-square)](https://TanaPhil.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-tanatswaphilmuganga16-0A66C2?style=flat-square)](https://www.linkedin.com/in/tanatswaphilmuganga16)
+[![Email](https://img.shields.io/badge/Email-tanamuganga16@gmail.com-EA4335?style=flat-square)](mailto:tanamuganga16@gmail.com)
 
 </div>
 
 ---
 
-## 💡 What I do
+## Engineering Focus
 
-Computer Science graduate based in **Germany**, with hands-on experience across:
-- 📊 Data analytics & pipeline automation
-- 🛠️ Product development & rapid prototyping  
-- ⚙️ Workflow automation & systems design
-- 🤖 AI-assisted engineering
-
-**My sweet spot:** Where product meets engineering. I find real operational problems, design the right workflows, ship working versions fast, and iterate based on what actually moves the needle.
-
-**Most interested in:** AI products · Product engineering · Product management · Workflow automation · Applied data · Founder-led teams
+**Core:** Automation systems · Data quality at scale · Operational reliability · Fail-closed architecture  
+**Expertise:** Python systems engineering · Research-to-deployment workflows · State management · Testing infrastructure
 
 ---
 
-## 🌟 Selected work
+## Projects
 
-### 🔐 [ContractGuard AI](https://github.com/Tanatswa1011/ContractGuard-AI)
-AI-assisted contract operations tooling that transforms contract obligations, deadlines and risks into actionable workflows.
+### [AITRADE](https://github.com/Tanatswa1011/Aitrade) — Systematic Trading Framework
 
-**Live:** [app.contractguard.cloud](https://app.contractguard.cloud/)  
-**Stack:** `AI` `Product` `Automation` `Contracts` `LLMs`
+**Problem:** Automated trading systems fail silently or execute orders under unsafe conditions. Research and production diverge.
 
----
+**Solution:** Production-hardened Python framework for systematic strategies with deterministic validation, execution safeguards, and fail-closed defaults.
 
-### 📈 [ACPT](https://www.acpt.cloud/) — AI Outcome Detection
-Detecting business-level failures in AI and automated workflows with evidence-based investigation and operational reliability.
+**Technical Depth:**
+- **Architecture:** Signal pipeline → validation gates → risk checks → execution adapter → journal logging
+- **Safety Design:** Execution disabled by default. Orders require operator consent + environmental checks + state verification.
+- **State Management:** Corruption fails closed. Restart blocks until manual review.
+- **Validation:** 419+ integration tests. Strategy hashes prevent accidental mutations.
+- **Stale-data Protection:** Blocks entries on market data gaps exceeding threshold.
+- **Position Safeguards:** Reads broker state on every submission. Refuses entry if position non-flat.
 
-**Live:** [acpt.cloud](https://www.acpt.cloud/)  
-**Stack:** `AI Operations` `Reliability` `Product Design` `B2B SaaS`
+**Status:** Research and deployment preparation (paper trading). Live execution intentionally disabled.  
+**Tech Stack:** Python · NinjaTrader ATI bridge · Databento · PostgreSQL
 
----
-
-### 📱 **Nimo** — Event Networking
-Mobile-first product solving a simple problem: you meet useful people at events, then forget who they were and why.
-
-Features: Event rooms · QR exchange · Lightweight contact context · Follow-up reminders  
-**Stack:** `React Native` `Expo` `Supabase` `Mobile-First`
-
----
-
-### 📊 [ORB Market Research Pipeline](https://github.com/Tanatswa1011/orb-validity-qqq)
-Reproducible research framework testing Opening Range Breakout hypotheses using real market data.
-
-**Stack:** `Python` `Data Analysis` `Backtesting` `Research`
+**Key Systems:**
+- Frozen strategy configurations with SHA256 integrity hashes
+- NQ Drift VWAP pullback engine (phase 30, backtested)
+- GC VWAP mean reversion (phase 26, frozen)
+- Prop-firm rule validator (generic framework)
 
 ---
 
-### 🤖 [AI Trader Terminal](https://github.com/Tanatswa1011/AiTraderTerminal)
-Interface experiment for AI-assisted trading workflows, execution context and operator visibility.
+### [ASK DAA](https://github.com/Tanatswa1011/DataAiAgent-) — Data Profiling & QA
 
-**Stack:** `Trading Systems` `Automation` `Product Engineering` `UX`
+**Problem:** Data quality issues go undetected. Column types misclassified. Anomalies buried in raw exports.
+
+**Solution:** CSV profiler that surfaces dataset structure, quality signals, and type evidence in one deterministic interface.
+
+**Technical Depth:**
+- **Classification Pipeline:** Deterministic rules (boolean → numeric → datetime → categorical → text). Threshold-based, fully testable.
+- **Quality Signals:** Mixed-type warnings · missing value density · cardinality analysis · sample data inspection
+- **Architecture:** FastAPI backend + Next.js frontend. Multipart file uploads. Stateless processing (temporary). 
+- **Testing:** Backend tests cover all classification rules and edge cases. Frontend tests for upload flow and component behavior.
+
+**Status:** Stable, feature-complete for phase 2 scope  
+**Tech Stack:** Python/FastAPI · Next.js · Pandas profiling · Pydantic
 
 ---
 
-## 📌 Experience in one line
+### [ORB Validity Analysis](https://github.com/Tanatswa1011/orb-validity-qqq) — Quantitative Research
 
-Previously worked in **data analytics** where I used Python & SQL to automate document-heavy workflows (**~1,000 PDFs/week**), cutting a 15-hour process down to ~2 hours.
+**Problem:** Trading hypotheses lack statistical rigor. Backtests are irreproducible.
 
-**That shaped how I build today:** Find the bottleneck → Understand the workflow → Remove unnecessary work → Measure what changed.
+**Solution:** Production-grade research repository for testing Opening Range Breakout (ORB) strategy on QQQ with historical market data.
+
+**Technical Depth:**
+- **Reproducibility:** All data regenerated via script from Alpaca API. No committed raw data. Frozen requirements.
+- **Structure:** Separation of raw → processed → features. Research lives in notebooks; pipelines are source-of-truth.
+- **Data Integrity:** Data validation gates before feature engineering. Complete audit trail.
+
+**Status:** Stable research framework  
+**Tech Stack:** Python · Pandas · Alpaca API · Parquet storage
 
 ---
 
-## 🛠️ Tech Stack
+## Background
 
-| Category | Tools |
+**Previous Role:** Data automation engineer  
+**Impact:** Built systems processing ~1,000 structured documents/week using Python + SQL  
+**Key Achievement:** Reduced 15-hour manual workflow to ~2-hour automated pipeline with quality gates
+
+**Methodology from experience:**
+1. Map the system (understand real workflow, not assumed workflow)
+2. Identify the constraint (what takes the most time or causes most errors?)
+3. Build deterministic guards (data quality gates prevent downstream failure)
+4. Measure the output (what changed? By how much?)
+5. Automate ruthlessly (remove humans from repetitive decisions)
+
+---
+
+## Technical Stack
+
+| Category | Depth |
 |----------|-------|
-| **Product & AI** | LLM workflows · Prompt design · AI-assisted development · Product discovery · Rapid prototyping · Automation |
-| **Engineering** | Python · JavaScript / TypeScript · React · React Native · Expo · Next.js · SQL · APIs · Git |
-| **Data** | Pandas · PostgreSQL · Power BI · Excel · Data pipelines · Experimentation |
-| **Infrastructure** | Supabase · Vercel · AWS · Linux · GitHub |
+| **Systems** | Python · SQL · Event-driven architecture · State management · CI/CD |
+| **Data** | Pandas · PostgreSQL · Data pipelines · Validation frameworks · Backtesting |
+| **Infrastructure** | AWS · Linux · Git · Supabase · GitHub Actions |
+| **Product** | TypeScript · React · Next.js · API design · Testing |
+| **Workflow** | Deterministic validation · Frozen configurations · Audit logging · Reproducibility |
 
 ---
 
-## 🎯 How I work
+## How I Work
 
-✅ Start with the **user problem**, not the feature list  
-✅ **Ship small** to learn quickly  
-✅ Use AI **aggressively for speed**, but keep judgment human  
-✅ Prioritize **measurable improvements** over impressive demos  
-✅ Treat product, data, and engineering as **one system**
-
----
-
-## 📍 Where to find more
-
-For case studies, deeper dives and current work:
-
-<div align="center">
-
-### 🌐 [**TanaPhil.com**](https://TanaPhil.com)
-
-</div>
+✅ **Constraint-driven:** Find the bottleneck, measure it relentlessly  
+✅ **Deterministic:** Prevent human error through guards, not discipline  
+✅ **Testable:** If it can break, it's tested. If it's frozen, it's hashed.  
+✅ **Observable:** Comprehensive logging of decisions and state  
+✅ **Operator-friendly:** Humans supervise. Systems enforce rules.  
 
 ---
 
-<div align="center">
+## Open To
 
-**📍 Berlin / Potsdam, Germany**
+Senior systems engineering · Founding engineering roles · Infrastructure for reliable automation · Teams prioritizing data quality and deployment safety
 
-Open to: Product roles · AI product engineering · Product operations · Founder-led opportunities
+**Location:** Berlin / Potsdam, Germany | Remote welcome
 
-</div>
+---
+
+**Portfolio & case studies:** [TanaPhil.com](https://TanaPhil.com)
