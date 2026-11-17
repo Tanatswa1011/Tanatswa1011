@@ -44,12 +44,13 @@ I worked on the document-automation pipeline (extracting and validating data fro
 
 ## Tools
 
-**Product:** Linear · Jira · Confluence · Notion · requirements and backlog · release notes and demos
-**Data:** SQL (BigQuery, PostgreSQL) · Python (Pandas) · Power BI
-**AI & automation:** OpenAI and Anthropic APIs · n8n · Zapier · Make · Claude Code · Cursor
-**Build:** TypeScript · React / Next.js · React Native / Expo · Supabase · FastAPI
+- **Product:** Linear · Jira · Confluence · Notion · requirements and backlog · release notes and demos
+- **Data:** SQL (BigQuery, PostgreSQL) · Python (Pandas) · Power BI
+- **AI & automation:** OpenAI and Anthropic APIs · n8n · Zapier · Make · Claude Code · Cursor
+- **Build:** TypeScript · React / Next.js · React Native / Expo · Supabase · FastAPI
 
 ---
 
 **Open to:** Technical Product Owner · Associate / Junior Product Manager · Product Analyst · AI Solutions roles, in Berlin or remote in Germany.
-English (C2) · German (A2, studying B1)
+
+**Languages:** English (C2) · German (A2, studying B1)
